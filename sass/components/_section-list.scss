@@ -1,0 +1,11 @@
+.section-list {
+    display: flex;
+    .section_item:not(:last-child) {
+            margin-right: 32px;
+        }
+}
+/*
+.section-list .section-item:not(:last-child) {
+    margin-right: 32px;
+}
+*/

@@ -1,0 +1,48 @@
+.auth-nav {
+    display: flex;
+    .item+.item {
+            margin-left: 50px;
+        }
+}
+/*
+.auth-nav .item+.item {
+    margin-left: 50px;
+}
+*/
+.header-mail {
+    margin-right: 10px;
+}
+
+.auth-nav-mail,
+.auth-nav-phone {
+    display: inline-flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--basic-color);
+    fill: currentColor;
+    transition: color var(--transition-dur-and-func);
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+
+}
+/*
+.auth-nav-mail:hover,
+.auth-nav-mail:focus {
+    color: var(--accent-color);
+}
+*/
+/*
+.auth-nav-phone:hover,
+.auth-nav-phone:focus {
+    color: var(--accent-color);
+}
+*/
+.site-nav .current {
+    color: var(--accent-color);
+}
