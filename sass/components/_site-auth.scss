@@ -13,14 +13,15 @@
     margin-right: 10px;
 }
 
-.auth-nav-mail,
-.auth-nav-phone {
+.auth-nav__mail,
+.auth-nav__phone {
     display: inline-flex;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--basic-color);
     fill: currentColor;
@@ -32,7 +33,7 @@
 
 }
 /*
-.auth-nav-mail:hover,
+.auth-nav__mail:hover,
 .auth-nav-mail:focus {
     color: var(--accent-color);
 }

@@ -1,4 +1,4 @@
-.benefit_icon {
+.benefit__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,7 @@
     column-gap: 30px;
 }
 
-.our-benefits_icon {
+.our-benefits__icon {
     align-items: center;
     justify-content: center;
     display: flex;
@@ -30,9 +30,9 @@
     padding-bottom: 94px;
 }
 
-.benefits_list {
+.benefits__list {
     display: flex;
-    .benefits_item:not(:last-child) {
+    .benefits__item:not(:last-child) {
             margin-right: 30px;
         }
 
